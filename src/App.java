@@ -6,9 +6,9 @@ import javax.swing.JOptionPane;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        String musicPath = "Harumodoki(12000Hz).wav";
+        String musicPath = "AlphaEdge.wav";
         play(musicPath);
-        JOptionPane.showMessageDialog(null, "Press Ok to stop");
+        JOptionPane.showMessageDialog(null, musicPath + " Is Playing \n    Press 'OK' to stop");
     }
 
     public static void play(String path){
